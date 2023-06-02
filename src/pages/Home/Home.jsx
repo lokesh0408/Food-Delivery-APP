@@ -22,7 +22,7 @@ const Home = () => {
 	const [offset, setOffset] = useState(0);
 	const [isLoading, setIsLoading] = useState(false);
 	const [totalOpenRestaurants, setTotalOpenRestaurants] = useState(0);
-	document.title = `Swiggy Clone - Vivek Kumar`;
+	document.title = `Swiggy Clone`;
 
 	const searchText = useSelector(state => state.search.text);
 	const getAllRestaurants = async () => {
