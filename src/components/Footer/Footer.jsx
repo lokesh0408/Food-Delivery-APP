@@ -25,7 +25,7 @@ const Footer = () => {
 							textAlign: 'center',
 							padding: '5px 0',
 						}}>
-						by Pulkit
+						
 					</div>
 				</div>
 				<div className="socials">
